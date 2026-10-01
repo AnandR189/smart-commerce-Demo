@@ -1,0 +1,16 @@
+# Server dependencies
+node_modules/
+
+# Sensitive env variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
